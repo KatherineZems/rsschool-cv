@@ -50,3 +50,9 @@ generatorForm.addEventListener('submit', e => {
 ```
 
 ---
+
+## Experience
+
+[My portfolio](https://katherinezems.github.io/my-portfolio/)
+
+---
