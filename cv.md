@@ -67,3 +67,8 @@ generatorForm.addEventListener('submit', e => {
   - JS, CSS, HTML, Git video courses on YouTube
 
 ---
+
+## Languages
+
+- Russian (native)
+- English (A2)
