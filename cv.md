@@ -32,3 +32,21 @@ is also a project that I did for a Ryazan company (product catalog and documenta
 - Figma, Adobe Photoshop
 
 ---
+
+## Code Example
+
+```
+generatorForm.addEventListener('submit', e => {
+  e.preventDefault()
+  const data = new FormData(e.target)
+  const lengthPassword = data.get('lengthPassword')
+  let password = ""
+  for(let i = 0; i < lengthPassword; i++){
+      const n = getRandomNumber(letters.length - 1)
+      password += letters[n]
+  }
+  write(password, "password")
+})
+```
+
+---
