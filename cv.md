@@ -2,16 +2,12 @@
 
 Junior Frontend Developer
 
----
-
 ## Contacts
 
-Phone: +7 (995) 540-72-93
-E-mail: zems.ekaterina@gmail.com
-GitHub: [KatherineZems](https://github.com/KatherineZems)
-Location: Russia, Ryazan
-
----
+- Phone: +7 (995) 540-72-93
+- E-mail: zems.ekaterina@gmail.com
+- GitHub: [KatherineZems](https://github.com/KatherineZems)
+- Location: Russia, Ryazan
 
 ## About Me
 
@@ -22,16 +18,12 @@ JavaScript games, a password generator and my achievements, also has a Caesar co
 cipher-decryptor program, and other sites. I set most of the tasks myself, but there
 is also a project that I did for a Ryazan company (product catalog and documentation).
 
----
-
 ## Skills
 
 - HTML, CSS (SASS)
 - JavaScript (Basic)
 - Git, GitHub
 - Figma, Adobe Photoshop
-
----
 
 ## Code Example
 
@@ -49,13 +41,9 @@ generatorForm.addEventListener('submit', e => {
 })
 ```
 
----
-
 ## Experience
 
 [My portfolio](https://katherinezems.github.io/my-portfolio/)
-
----
 
 ## Education
 
@@ -65,8 +53,6 @@ generatorForm.addEventListener('submit', e => {
   - [HTML Academy](https://htmlacademy.ru/courses)
   - [RS Schools Course «JavaScript/Front-end»](https://rs.school/index.html)
   - JS, CSS, HTML, Git video courses on YouTube
-
----
 
 ## Languages
 
