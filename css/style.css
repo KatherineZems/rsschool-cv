@@ -18,6 +18,12 @@
   font-display: swap;
 }
 
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-style: normal;
@@ -26,4 +32,24 @@ body {
   line-height: 1.25;
   color: #000000;
   background-color: #e5e5e5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin: 0;
 }
