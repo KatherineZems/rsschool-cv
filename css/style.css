@@ -29,7 +29,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.3;
   color: #000000;
   background-color: #e5e5e5;
 }
@@ -65,7 +65,7 @@ p {
 }
 
 .wrapper-left-col {
-  padding: 80px 0 60px 70px;
+  padding: 80px 0 60px 100px;
 }
 
 .wrapper-right-col {
@@ -73,7 +73,114 @@ p {
 }
 
 .heading {
-  font-weight: 700;
+  margin: 0;
   font-size: 28px;
-  line-height: 24px;
+  font-weight: 700;
+}
+
+.header__heading {
+  position: relative;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 64px;
+}
+
+.header__heading_uppercase {
+  text-transform: uppercase;
+}
+
+.header__heading::after {
+  content: "";
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 80px;
+  height: 14px;
+  background-color: #90cdf4;
+  border-radius: 7px;
+}
+
+.header__gretting,
+.header__location {
+  width: 290px;
+  font-size: 34px;
+  color: #4299e1;
+}
+
+.header__location {
+  margin-bottom: 48px;
+}
+
+.header__greeting_black {
+  font-weight: 700;
+  color: #000000;
+}
+
+.projects__list {
+  position: relative;
+  margin: 12px 0 48px 12px;
+  padding-left: 30px;
+  border-left: 2px solid #90cdf4;
+}
+
+.projects__item:not(:last-child) {
+  margin-bottom: 48px;
+}
+
+.projects__item:last-child::before {
+  content: "";
+  position: absolute;
+  bottom: -28px;
+  left: -2px;
+  width: 0;
+  height: 28px;
+  border-left: 2px dashed #90cdf4;
+}
+
+.projects__link {
+  position: relative;
+  font-size: 24px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #63b3ed;
+}
+
+.projects__link::before {
+  content: "";
+  position: absolute;
+  left: -43px;
+  width: 24px;
+  height: 24px;
+  border: 6px solid #90cdf4;
+  border-radius: 50%;
+  background-color: #ffffff;
+  transition: background-color 0.2s;
+}
+
+.projects__link:hover {
+  color: #4299e1;
+}
+
+.projects__link:hover::before {
+  background-color: #90cdf4;
+}
+
+.projects__description {
+  font-size: 18px;
+}
+
+.languages__list {
+  margin-top: 18px;
+  margin-bottom: 24px;
+}
+
+.languages__item_bold {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.about-me__text {
+  margin-top: 14px;
+  width: 440px;
 }
