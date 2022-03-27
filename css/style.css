@@ -57,19 +57,19 @@ p {
 .main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 60px;
-  width: 1200px;
+  column-gap: 80px;
+  width: 1000px;
   margin: 30px auto 40px;
   background-color: #ffffff;
   box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.1);
 }
 
 .wrapper-left-col {
-  padding: 80px 0 60px 100px;
+  padding: 84px 0 60px 80px;
 }
 
 .wrapper-right-col {
-  padding: 80px 0 60px;
+  padding: 50px 0 60px;
 }
 
 .heading {
@@ -82,6 +82,7 @@ p {
   position: relative;
   font-size: 50px;
   font-weight: 400;
+  margin-top: 0;
   margin-bottom: 64px;
 }
 
@@ -182,5 +183,59 @@ p {
 
 .about-me__text {
   margin-top: 14px;
-  width: 440px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 34px 20px 126px 0;
+  background-image: url("/img/design-elements.svg"), url("/img/ellipse.svg");
+  background-repeat: no-repeat;
+  background-position: center top, right;
+  background-size: auto 90%, auto 100%;
+}
+
+.contacts__photo {
+  width: 200px;
+  margin-left: 20px;
+  margin-bottom: 54px;
+  border-radius: 50%;
+}
+
+.contacts__link {
+  display: inline-block;
+  width: 360px;
+  padding: 14px 10px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 0.7px;
+  color: #ffffff;
+  background-color: #90cdf4;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 22px;
+  transition: color 0.2s;
+}
+
+.contacts__link:not(:last-of-type) {
+  margin-bottom: 18px;
+}
+
+.contacts__link_align-left {
+  align-self: flex-start;
+}
+
+.contacts__link_yellow {
+  align-self: flex-end;
+  background-color: #fbd38d;
+}
+
+.contacts__link:hover {
+  color: #2b6cb0;
+}
+
+.contacts__link_yellow:hover {
+  color: #b7791f;
 }
