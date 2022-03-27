@@ -51,7 +51,7 @@ generatorForm.addEventListener('submit', e => {
   (Department of Information Technologies in Graphics and Design)
 - Courses:
   - [HTML Academy](https://htmlacademy.ru/courses)
-  - [RS Schools Course «JavaScript/Front-end»](https://rs.school/index.html)
+  - [RS School Course «JavaScript/Front-end»](https://rs.school/index.html)
   - JS, CSS, HTML, Git video courses on YouTube
 
 ## Languages
