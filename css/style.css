@@ -1,8 +1,8 @@
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat"), local("Montserrat-Regular"),
-    url("/fonts/Montserrat-Regular.woff2") format("woff2"),
-    url("/fonts/Montserrat-Regular.woff") format("woff");
+    url("../fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("../fonts/Montserrat-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -11,8 +11,8 @@
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat Bold"), local("Montserrat-Bold"),
-    url("/fonts/montserratbold.woff2") format("woff2"),
-    url("/fonts/montserratbold.woff") format("woff");
+    url("../fonts/montserratbold.woff2") format("woff2"),
+    url("../fonts/montserratbold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -191,7 +191,7 @@ p {
   flex-direction: column;
   align-items: center;
   padding: 34px 20px 126px 0;
-  background-image: url("/img/design-elements.svg"), url("/img/ellipse.svg");
+  background-image: url("../img/design-elements.svg"), url("../img/ellipse.svg");
   background-repeat: no-repeat;
   background-position: center top, right;
   background-size: auto 90%, auto 100%;
